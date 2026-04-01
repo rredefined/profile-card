@@ -17,7 +17,7 @@ interface TerminalLine {
 const TerminalDialog = ({ open, onOpenChange }: TerminalDialogProps) => {
   const [input, setInput] = useState('');
   const [history, setHistory] = useState<TerminalLine[]>([
-    { type: 'output', content: 'Welcome to alisaa\'s terminal. Type "help" for commands.' },
+    { type: 'output', content: 'Welcome to Aizen\'s terminal. Type "help" for commands.' },
   ]);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -48,21 +48,21 @@ const TerminalDialog = ({ open, onOpenChange }: TerminalDialogProps) => {
   5. clear   - Clear terminal`;
         break;
       case 'server':
-        response = '🎮 Discord Server: discord.gg/aerox';
+        response = '🎮 Discord Server: server deleted';
         break;
       case 'about':
         response = `👤 About Me:
-  Name: Alya
-  Age: 20
+  Name: Aizen
+  Age: 16
   Profession: Graphic Design / Web Development`;
         break;
       case 'webinfo':
         response = `🌐 Website Info:
   Inspiration: cursi.ng
-  Created by: Alya`;
+  Created by: Aizen`;
         break;
       case 'discord':
-        response = '💬 Discord: arcticayl';
+        response = '💬 Discord: eiro.tf';
         break;
       case 'clear':
         setHistory([{ type: 'output', content: 'Terminal cleared. Type "help" for commands.' }]);
