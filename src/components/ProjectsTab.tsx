@@ -9,10 +9,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: 'portfolio',
-    description: 'Personal portfolio website with modern design',
+    name: 'Strelix',
+    description: 'Moviess,TV Shows & Anime Streaming website with modenrn design',
     tech: ['Next.js', 'React'],
-    link: 'https://devbyaizen.vercel.app/',
+    link: 'https://strelix.qzz.io/',
   },
 ];
 
