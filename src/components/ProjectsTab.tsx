@@ -12,7 +12,7 @@ const projects: Project[] = [
     name: 'portfolio',
     description: 'Personal portfolio website with modern design',
     tech: ['Next.js', 'React'],
-    link: 'https://urb4nayl.vercel.app/',
+    link: 'https://devbyaizen.vercel.app/',
   },
 ];
 
